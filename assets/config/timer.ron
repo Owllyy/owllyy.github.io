@@ -1,0 +1,68 @@
+(
+    cursor_delay: 0.5,
+    cursor_speed: 8.0,
+    game_over_delay: 5.0,
+    game_over_distance: 100.0,
+    game_over_timer: Some(30.0),
+    cursor_distance: 200.0,
+    bigest_spawnable_planet_index: 4,
+    planets: [
+        (
+            name: "moon",
+            size: 30.0,
+            score: 2,
+        ),
+        (
+            name: "earth",
+            size: 37.0,
+            score: 3,
+        ),
+        (
+            name: "mars",
+            size: 47.0,
+            score: 4,
+        ),
+        (
+            name: "snow",
+            size: 60.0,
+            score: 8,
+        ),
+        (
+            name: "toxic",
+            size: 75.0,
+            score: 16,
+        ),
+        (
+            name: "lava",
+            size: 95.0,
+            score: 32,
+        ),
+        (
+            name: "milk",
+            size: 120.0,
+            score: 64,
+        ),
+        (
+            name: "green",
+            size: 151.0,
+            score: 128,
+        ),
+        (
+            name: "emma",
+            size: 190.0,
+            score: 256,
+        ),
+        (
+            name: "sand",
+            size: 240.0,
+            score: 512,
+        ),
+        (
+            name: "sun",
+            size: 302.0,
+            score: 1024,
+        ),
+    ],
+    second_set: None,
+    black_hole: None,
+)
