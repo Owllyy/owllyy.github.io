@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1743784569|6989876557';
+const CACHE_VERSION = '1745426373|33829070002';
 /** @type {string} */
 const CACHE_PREFIX = 'SpaceMerge-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
